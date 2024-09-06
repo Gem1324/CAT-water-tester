@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="H_C@RpRDNgEIj5/mr:)n" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="r0k.$0byNm9rcpxDg=iC"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . # 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="qK3k[?:[#gwT~%y+%$0k" x="-370" y="31"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="z_suK)}6Hh4~1;{B,|Bz"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="music_playable_play" id=";p3xl~;LjtUcw3k;`$dk"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="TETK8Jk;{`%:K@!^N|h^"><value name="melody"><shadow type="melody_editor" id="{AJC/F4_mZA9GyD+I_[t"><field name="melody">"G B A G C5 B A B "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="mnj7w*=0F*y]KTHV_~4}"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></next></block></statement></block></xml>
